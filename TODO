@@ -1,0 +1,5 @@
+* Allow multiple videos to be used for the same object: video-02.MOV > label:video > imagefilename > label-video02-small.jpg
+* Always generate unique filenames when extracting from videos. This will avoid the bottleneck files being reused with the wrong data
+* Rename all scripts to step1-extract-from-videos.sh, step2-resize-images.sh etc
+* Remove $PROJECT_ROOT from all scripts and just use ./ to make it easier to use in other projects
+* Allow extract-from-video.sh to take label name instead of absolute path. This would need to take into account that a video can be MOV, MPG, MPEG, MP4, etc. 

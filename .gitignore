@@ -1,0 +1,6 @@
+.DS_Store
+videos/
+training-images-large/*
+training-images-small/*
+ux/
+WORKSPACE
